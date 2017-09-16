@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/iv_catalog_detail_banner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/banner_height"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/tv_catalog_detail_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                tools:text="Genre"/>
+
+            <TextView
+                android:id="@+id/tv_catalog_detail_platforms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:textAlignment="viewEnd"
+                android:layout_gravity="end"
+                tools:text="Platform"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_catalog_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorIcons"
+            android:padding="@dimen/padding_default"
+            tools:text="Description..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:text="@string/developer_colon"/>
+
+            <TextView
+                android:id="@+id/tv_catalog_detail_developer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorIcons"
+                tools:text="Developer"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default"
+            android:paddingBottom="@dimen/padding_default">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorIcons"
+                android:textStyle="bold"
+                android:text="@string/publisher_colon"/>
+
+            <TextView
+                android:id="@+id/tv_catalog_detail_publisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorIcons"
+                tools:text="Publisher"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

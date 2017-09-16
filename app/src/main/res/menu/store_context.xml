@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_open_map"
+        android:orderInCategory="100"
+        android:title="@string/open_map"
+        android:icon="@drawable/ic_map"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_make_call"
+        android:orderInCategory="100"
+        android:title="@string/make_call"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="never" />
+</menu>

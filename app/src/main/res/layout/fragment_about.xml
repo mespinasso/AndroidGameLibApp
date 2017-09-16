@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context="br.com.mespinasso.gamelib.fragments.AboutFragment">
+
+    <ImageView
+        android:layout_width="@dimen/splash_icon_width"
+        android:layout_height="@dimen/splash_icon_height"
+        android:background="@drawable/ic_app"
+        android:id="@+id/about_icon"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_version"
+        android:textColor="@color/colorIcons"
+        android:text="@string/version"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info"
+        android:textColor="@color/colorIcons"
+        android:text="@string/copyright_info"/>
+
+</LinearLayout>

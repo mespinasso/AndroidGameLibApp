@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="password">Senha</string>
+    <string name="keep_logged_in">Manter-me conectado</string>
+
+    <string name="loading_game_catalog">Carregando catálogo de jogos...</string>
+    <string name="loading_game_library">Carregando jogos da biblioteca...</string>
+    <string name="loading_store">Carregando lojas...</string>
+
+    <string name="invalid_username">Digite um usuário válido</string>
+    <string name="invalid_passowrd">Digite uma senha válida</string>
+    <string name="user_sync_failed">Ocorreu um erro durante a sincronização dos dados de login</string>
+    <string name="login_failed">A tentativa de login falhou. Verifique seu usuário e senha.</string>
+
+    <string name="catalog">Catálogo</string>
+    <string name="library">Biblioteca</string>
+    <string name="stores">Lojas</string>
+    <string name="settings">Opções</string>
+    <string name="user">Usuário</string>
+    <string name="about">Sobre</string>
+    <string name="quit">Sair</string>
+
+    <string name="add_to_library">Adicionar à biblioteca</string>
+    <string name="already_in_library">Jogo já adicionado à biblioteca</string>
+    <string name="added_to_library">Adicionado à biblioteca</string>
+    <string name="error_add_to_library">Ocorreu um erro ao adicionar o jogo à biblioteca</string>
+
+    <string name="version">Versão</string>
+
+    <string name="notes">Notas</string>
+    <string name="save">Salvar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="app_blurb">Game Lib - Sua biblioteca de jogos</string>
+    <string name="error_update">Ocorreu um erro enquanto ao atualizar as informações</string>
+
+    <string name="warning">Atenção</string>
+    <string name="confirm_delete_game">Tem certeza que deseja remover esse jogo de sua biblioteca?</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+
+    <string name="developer_colon">Desenvolvedora:</string>
+    <string name="publisher_colon">Publicadora:</string>
+    <string name="rating_colon">Avaliação:</string>
+    <string name="saved_exclamation">Salvo!</string>
+
+    <string name="edit">Editar</string>
+    <string name="delete">Deletar</string>
+    <string name="open_map">Abrir Mapa</string>
+    <string name="make_call">Fazer Ligação</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_text">Confira o jogo:</string>
+</resources>

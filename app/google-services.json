@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "445618752449",
+    "firebase_url": "https://gamelibapp.firebaseio.com",
+    "project_id": "gamelibapp",
+    "storage_bucket": "gamelibapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445618752449:android:aada5287302b3210",
+        "android_client_info": {
+          "package_name": "br.com.mespinasso.gamelib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445618752449-5jcr3887vbuh80eg5ltbieb1i5kj6uvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7s7MmjXYiEAUokoFQJoTWAMGRFVBXoBs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
